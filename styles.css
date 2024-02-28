@@ -1,0 +1,49 @@
+body {
+    display: flex; 
+    margin: 0px;
+}
+
+.left {
+    background-image: url("cinque-terre.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 35vw;
+    font-size: 80px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.credits,
+a, 
+.title{
+    color: white; 
+}
+
+.title {
+    position: relative;
+    bottom: 460px;
+    font-size: 80px;
+    font-family: 'Norse', sans-serif;
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    text-align: center;
+                                            
+}
+
+.credits {
+    font-size: 16px;
+}
+
+img  {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.right-top {
+    width: 75%;
+}
+
+
